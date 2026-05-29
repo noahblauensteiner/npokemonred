@@ -1,0 +1,302 @@
+{
+  "10": {
+    "dexId": 10, "name": "Caterpie",
+    "types": ["Bug"],
+    "abilities": ["Shield Dust", "Run Away", "Tinted Lens"],
+    "baseStats": { "hp": 45, "atk": 30, "def": 35, "spa": 20, "spd": 20, "spe": 45 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "utility",
+    "strategyTip": "Evolves into Butterfree — Sleep Powder + Compound Eyes makes it a strong early support.",
+    "noChanges": false
+  },
+  "11": {
+    "dexId": 11, "name": "Metapod",
+    "types": ["Bug"],
+    "abilities": ["Shed Skin"],
+    "baseStats": { "hp": 50, "atk": 20, "def": 55, "spa": 25, "spd": 25, "spe": 30 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "wall",
+    "strategyTip": "Transitional stage — evolve ASAP.",
+    "noChanges": false
+  },
+  "13": {
+    "dexId": 13, "name": "Weedle",
+    "types": ["Bug", "Poison"],
+    "abilities": ["Shield Dust", "Run Away", "Hustle"],
+    "baseStats": { "hp": 40, "atk": 35, "def": 30, "spa": 20, "spd": 20, "spe": 50 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Beedrill in Radical Red has Adaptability. Strong physical attacker late-game.",
+    "noChanges": false
+  },
+  "14": {
+    "dexId": 14, "name": "Kakuna",
+    "types": ["Bug", "Poison"],
+    "abilities": ["Shed Skin"],
+    "baseStats": { "hp": 45, "atk": 25, "def": 50, "spa": 25, "spd": 25, "spe": 35 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "wall",
+    "strategyTip": "Transitional stage — evolve ASAP.",
+    "noChanges": false
+  },
+  "16": {
+    "dexId": 16, "name": "Pidgey",
+    "types": ["Normal", "Flying"],
+    "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
+    "baseStats": { "hp": 40, "atk": 45, "def": 40, "spa": 35, "spd": 35, "spe": 56 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "utility",
+    "strategyTip": "Fast pivot. Pidgeot gains access to Hurricane and has decent Speed.",
+    "noChanges": false
+  },
+  "19": {
+    "dexId": 19, "name": "Rattata",
+    "types": ["Normal"],
+    "abilities": ["Run Away", "Guts", "Hustle"],
+    "baseStats": { "hp": 30, "atk": 56, "def": 35, "spa": 25, "spd": 35, "spe": 72 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Very fast with Hustle + strong attack. Raticate gets solid moves. Fragile.",
+    "noChanges": false
+  },
+  "21": {
+    "dexId": 21, "name": "Spearow",
+    "types": ["Normal", "Flying"],
+    "abilities": ["Keen Eye", "Sniper", "Defiant"],
+    "baseStats": { "hp": 40, "atk": 60, "def": 30, "spa": 31, "spd": 31, "spe": 70 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Fearow has Sniper + Drill Run for good coverage. Reliable early attacker.",
+    "noChanges": false
+  },
+  "23": {
+    "dexId": 23, "name": "Ekans",
+    "types": ["Poison"],
+    "abilities": ["Intimidate", "Shed Skin", "Unnerve"],
+    "baseStats": { "hp": 35, "atk": 60, "def": 44, "spa": 40, "spd": 54, "spe": 55 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "pivot",
+    "strategyTip": "Intimidate on switch-in is useful. Arbok gets strong coverage moves in RR.",
+    "noChanges": false
+  },
+  "25": {
+    "dexId": 25, "name": "Pikachu",
+    "types": ["Electric"],
+    "abilities": ["Static", "Lightning Rod"],
+    "baseStats": { "hp": 35, "atk": 55, "def": 40, "spa": 50, "spd": 50, "spe": 90 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Evolve to Raichu — fast special attacker. Good for Misty's Gym.",
+    "noChanges": false
+  },
+  "29": {
+    "dexId": 29, "name": "Nidoran♀",
+    "types": ["Poison"],
+    "abilities": ["Poison Point", "Rivalry", "Hustle"],
+    "baseStats": { "hp": 55, "atk": 47, "def": 52, "spa": 40, "spd": 40, "spe": 41 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "mixed",
+    "strategyTip": "Nidoqueen is a powerful mixed attacker with great coverage. Long-term team anchor.",
+    "noChanges": false
+  },
+  "32": {
+    "dexId": 32, "name": "Nidoran♂",
+    "types": ["Poison"],
+    "abilities": ["Poison Point", "Rivalry", "Hustle"],
+    "baseStats": { "hp": 46, "atk": 57, "def": 40, "spa": 40, "spd": 40, "spe": 50 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Nidoking is a powerful physical/special sweeper. Coverage is excellent.",
+    "noChanges": false
+  },
+  "35": {
+    "dexId": 35, "name": "Clefairy",
+    "types": ["Fairy"],
+    "abilities": ["Cute Charm", "Magic Guard", "Friend Guard"],
+    "baseStats": { "hp": 70, "atk": 45, "def": 48, "spa": 60, "spd": 65, "spe": 35 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "support",
+    "strategyTip": "Clefable with Magic Guard is a premier support/wall. Immune to hazard damage.",
+    "noChanges": false
+  },
+  "39": {
+    "dexId": 39, "name": "Jigglypuff",
+    "types": ["Normal", "Fairy"],
+    "abilities": ["Cute Charm", "Competitive", "Friend Guard"],
+    "baseStats": { "hp": 115, "atk": 45, "def": 20, "spa": 45, "spd": 25, "spe": 20 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "support",
+    "strategyTip": "Enormous HP pool. Wigglytuff is a tanky support with Fairy coverage.",
+    "noChanges": false
+  },
+  "41": {
+    "dexId": 41, "name": "Zubat",
+    "types": ["Poison", "Flying"],
+    "abilities": ["Inner Focus", "Infiltrator"],
+    "baseStats": { "hp": 40, "atk": 45, "def": 35, "spa": 30, "spd": 40, "spe": 55 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "pivot",
+    "strategyTip": "Crobat is extremely fast with great utility moves. One of the best pivots in early-game.",
+    "noChanges": false
+  },
+  "43": {
+    "dexId": 43, "name": "Oddish",
+    "types": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll", "Run Away", "Effect Spore"],
+    "baseStats": { "hp": 45, "atk": 50, "def": 55, "spa": 75, "spd": 65, "spe": 30 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Vileplume/Bellossom are solid Grass attackers. Good vs. Brock's Gym.",
+    "noChanges": false
+  },
+  "46": {
+    "dexId": 46, "name": "Paras",
+    "types": ["Bug", "Grass"],
+    "abilities": ["Effect Spore", "Dry Skin", "Damp"],
+    "baseStats": { "hp": 35, "atk": 70, "def": 55, "spa": 45, "spd": 55, "spe": 25 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "support",
+    "strategyTip": "Spore is extremely useful. Parasect has 4x weakness to Fire and Flying — be careful.",
+    "noChanges": false
+  },
+  "52": {
+    "dexId": 52, "name": "Meowth",
+    "types": ["Normal"],
+    "abilities": ["Pickup", "Technician", "Unnerve"],
+    "baseStats": { "hp": 40, "atk": 45, "def": 35, "spa": 40, "spd": 40, "spe": 90 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Persian with Technician is very fast. Pickup utility early-game.",
+    "noChanges": false
+  },
+  "56": {
+    "dexId": 56, "name": "Mankey",
+    "types": ["Fighting"],
+    "abilities": ["Vital Spirit", "Anger Point", "Defiant"],
+    "baseStats": { "hp": 40, "atk": 80, "def": 35, "spa": 35, "spd": 45, "spe": 70 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Primeape/Annihilape are hard-hitting Fighters. Very useful vs. Brock.",
+    "noChanges": false
+  },
+  "58": {
+    "dexId": 58, "name": "Growlithe",
+    "types": ["Fire"],
+    "abilities": ["Intimidate", "Flash Fire", "Justified"],
+    "baseStats": { "hp": 55, "atk": 70, "def": 45, "spa": 70, "spd": 50, "spe": 60 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "mixed",
+    "strategyTip": "Arcanine is a powerful mixed attacker with great Speed after evolving. Top-tier.",
+    "noChanges": false
+  },
+  "66": {
+    "dexId": 66, "name": "Machop",
+    "types": ["Fighting"],
+    "abilities": ["Guts", "No Guard", "Steadfast"],
+    "baseStats": { "hp": 70, "atk": 80, "def": 50, "spa": 35, "spd": 35, "spe": 35 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "No Guard Machamp hits with DynamicPunch reliably. Bulky physical threat.",
+    "noChanges": false
+  },
+  "69": {
+    "dexId": 69, "name": "Bellsprout",
+    "types": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll", "Gluttony"],
+    "baseStats": { "hp": 50, "atk": 75, "def": 35, "spa": 70, "spd": 30, "spe": 40 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Victreebel has solid mixed offenses. Growth + Solar Beam under Sun is dangerous.",
+    "noChanges": false
+  },
+  "74": {
+    "dexId": 74, "name": "Geodude",
+    "types": ["Rock", "Ground"],
+    "abilities": ["Rock Head", "Sturdy", "Sand Veil"],
+    "baseStats": { "hp": 40, "atk": 80, "def": 100, "spa": 30, "spd": 30, "spe": 20 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "wall",
+    "strategyTip": "Golem is a solid physical wall. Stealth Rock user. Weak to Water/Grass/Ground.",
+    "noChanges": false
+  },
+  "79": {
+    "dexId": 79, "name": "Slowpoke",
+    "types": ["Water", "Psychic"],
+    "abilities": ["Oblivious", "Own Tempo", "Regenerator"],
+    "baseStats": { "hp": 90, "atk": 65, "def": 65, "spa": 40, "spd": 40, "spe": 15 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "wall",
+    "strategyTip": "Slowbro with Regenerator is a premier defensive Pokémon. Excellent longevity.",
+    "noChanges": false
+  },
+  "83": {
+    "dexId": 83, "name": "Farfetch'd",
+    "types": ["Normal", "Flying"],
+    "abilities": ["Keen Eye", "Inner Focus", "Defiant"],
+    "baseStats": { "hp": 52, "atk": 90, "def": 55, "spa": 58, "spd": 62, "spe": 60 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 10, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Radical Red buffs Farfetch'd. Has decent attack and coverage options.",
+    "noChanges": false
+  },
+  "96": {
+    "dexId": 96, "name": "Drowzee",
+    "types": ["Psychic"],
+    "abilities": ["Insomnia", "Forewarn", "Inner Focus"],
+    "baseStats": { "hp": 60, "atk": 48, "def": 45, "spa": 43, "spd": 90, "spe": 42 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "support",
+    "strategyTip": "Hypno has excellent Special Defense. Useful Psychic type for Misty fights.",
+    "noChanges": false
+  },
+  "129": {
+    "dexId": 129, "name": "Magikarp",
+    "types": ["Water"],
+    "abilities": ["Swift Swim", "Rattled"],
+    "baseStats": { "hp": 20, "atk": 10, "def": 55, "spa": 15, "spd": 20, "spe": 80 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Gyarados is a top-tier sweeper. Worth grinding. Intimidate makes it a great pivot too.",
+    "noChanges": false
+  },
+  "161": {
+    "dexId": 161, "name": "Sentret",
+    "types": ["Normal"],
+    "abilities": ["Run Away", "Keen Eye", "Frisk"],
+    "baseStats": { "hp": 35, "atk": 46, "def": 34, "spa": 35, "spd": 45, "spe": 20 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "utility",
+    "strategyTip": "Furret has decent Speed and coverage. Frisk reveals held items — useful for scouting.",
+    "noChanges": false
+  },
+  "236": {
+    "dexId": 236, "name": "Tyrogue",
+    "types": ["Fighting"],
+    "abilities": ["Guts", "Steadfast", "Vital Spirit"],
+    "baseStats": { "hp": 35, "atk": 35, "def": 35, "spa": 35, "spd": 35, "spe": 35 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Rare encounter. Evolves into Hitmonlee/Hitmonchan/Hitmontop based on stats.",
+    "noChanges": false
+  },
+  "239": {
+    "dexId": 239, "name": "Elekid",
+    "types": ["Electric"],
+    "abilities": ["Static", "Vital Spirit"],
+    "baseStats": { "hp": 45, "atk": 63, "def": 37, "spa": 65, "spd": 55, "spe": 95 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "sweeper",
+    "strategyTip": "Electabuzz/Electivire are strong Electric attackers with high Speed.",
+    "noChanges": false
+  },
+  "263": {
+    "dexId": 263, "name": "Zigzagoon",
+    "types": ["Normal"],
+    "abilities": ["Pickup", "Gluttony", "Quick Feet"],
+    "baseStats": { "hp": 38, "atk": 30, "def": 41, "spa": 30, "spd": 41, "spe": 60 },
+    "statDeltas": { "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0 },
+    "role": "utility",
+    "strategyTip": "Linoone can use Pickup for free items. Extreme Speed in late-game is useful.",
+    "noChanges": false
+  }
+}

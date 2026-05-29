@@ -1,0 +1,116 @@
+[
+  {
+    "id": "brock",
+    "name": "Brock",
+    "gym": "Pewter City Gym",
+    "badgeId": 1,
+    "badgeName": "Boulder Badge",
+    "levelCap": 16,
+    "types": ["Rock", "Ground"],
+    "teamSize": 4,
+    "tips": "Water and Grass types are effective. Watch for Stealth Rock and high Defense. Fighting types also work on Rock. Avoid Normal/Flying/Fire/Poison.",
+    "team": [
+      {
+        "dexId": 74,
+        "name": "Geodude",
+        "level": 12,
+        "types": ["Rock", "Ground"],
+        "item": "Oran Berry",
+        "ability": "Sturdy",
+        "nature": "Adamant",
+        "moves": ["Stealth Rock", "Rock Throw", "Magnitude", "Defense Curl"],
+        "evs": { "def": 252, "atk": 252 }
+      },
+      {
+        "dexId": 246,
+        "name": "Larvitar",
+        "level": 13,
+        "types": ["Rock", "Ground"],
+        "item": "Eviolite",
+        "ability": "Guts",
+        "nature": "Jolly",
+        "moves": ["Rock Slide", "Earthquake", "Bite", "Dragon Dance"],
+        "evs": { "atk": 252, "spe": 252 }
+      },
+      {
+        "dexId": 95,
+        "name": "Onix",
+        "level": 14,
+        "types": ["Rock", "Ground"],
+        "item": "Rocky Helmet",
+        "ability": "Sturdy",
+        "nature": "Impish",
+        "moves": ["Rock Blast", "Earthquake", "Bind", "Stealth Rock"],
+        "evs": { "def": 252, "hp": 252 }
+      },
+      {
+        "dexId": 112,
+        "name": "Rhydon",
+        "level": 15,
+        "types": ["Ground", "Rock"],
+        "item": "Eviolite",
+        "ability": "Rock Head",
+        "nature": "Adamant",
+        "moves": ["Rock Wrecker", "Earthquake", "Megahorn", "Hammer Arm"],
+        "evs": { "atk": 252, "def": 252 }
+      }
+    ]
+  },
+  {
+    "id": "misty",
+    "name": "Misty",
+    "gym": "Cerulean City Gym",
+    "badgeId": 2,
+    "badgeName": "Cascade Badge",
+    "levelCap": 28,
+    "types": ["Water"],
+    "teamSize": 4,
+    "tips": "Electric and Grass are your best options. Misty's team hits hard and has good Speed. Avoid Fire/Rock/Ground types. Her Starmie has Psychic coverage — don't bring Poison or Fighting.",
+    "team": [
+      {
+        "dexId": 183,
+        "name": "Marill",
+        "level": 22,
+        "types": ["Water", "Fairy"],
+        "item": "Eviolite",
+        "ability": "Huge Power",
+        "nature": "Adamant",
+        "moves": ["Aqua Jet", "Play Rough", "Belly Drum", "Waterfall"],
+        "evs": { "atk": 252, "hp": 252 }
+      },
+      {
+        "dexId": 60,
+        "name": "Poliwag",
+        "level": 23,
+        "types": ["Water"],
+        "item": "Oran Berry",
+        "ability": "Swift Swim",
+        "nature": "Modest",
+        "moves": ["Scald", "Hypnosis", "Rain Dance", "Body Slam"],
+        "evs": { "spa": 252, "spe": 252 }
+      },
+      {
+        "dexId": 116,
+        "name": "Horsea",
+        "level": 24,
+        "types": ["Water"],
+        "item": "Choice Specs",
+        "ability": "Swift Swim",
+        "nature": "Modest",
+        "moves": ["Hydro Pump", "Dragon Pulse", "Signal Beam", "Rain Dance"],
+        "evs": { "spa": 252, "spe": 252 }
+      },
+      {
+        "dexId": 121,
+        "name": "Starmie",
+        "level": 27,
+        "types": ["Water", "Psychic"],
+        "item": "Mystic Water",
+        "ability": "Natural Cure",
+        "nature": "Timid",
+        "moves": ["Hydro Pump", "Psychic", "Ice Beam", "Thunderbolt"],
+        "evs": { "spa": 252, "spe": 252 }
+      }
+    ]
+  }
+]

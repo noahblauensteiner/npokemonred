@@ -1,0 +1,107 @@
+[
+  {
+    "id": "pallet-town-pokeball",
+    "name": "Poké Ball ×5",
+    "segmentId": "pallet-town",
+    "tag": "pickup",
+    "locationDescription": "Gift from Professor Oak after receiving your starter."
+  },
+  {
+    "id": "viridian-city-potion",
+    "name": "Potion",
+    "segmentId": "viridian-city",
+    "tag": "pickup",
+    "locationDescription": "In the mart (free sample from the delivery mission)."
+  },
+  {
+    "id": "viridian-city-tm-growl",
+    "name": "TM41 Torment",
+    "segmentId": "viridian-city",
+    "tag": "TM",
+    "locationDescription": "Old man's house south of the Poké Mart after the tutorial."
+  },
+  {
+    "id": "route-2-south-antidote",
+    "name": "Antidote",
+    "segmentId": "route-2-south",
+    "tag": "pickup",
+    "locationDescription": "Item ball on the grass in Route 2 south section."
+  },
+  {
+    "id": "viridian-forest-antidote",
+    "name": "Antidote",
+    "segmentId": "viridian-forest",
+    "tag": "pickup",
+    "locationDescription": "Item ball inside the forest — near the first patch of tall grass."
+  },
+  {
+    "id": "viridian-forest-potion",
+    "name": "Potion",
+    "segmentId": "viridian-forest",
+    "tag": "pickup",
+    "locationDescription": "Item ball deeper in Viridian Forest."
+  },
+  {
+    "id": "pewter-city-boulder-badge",
+    "name": "Boulder Badge",
+    "segmentId": "pewter-city",
+    "tag": "key-item",
+    "locationDescription": "Reward for defeating Brock. Enables HM Strength outside battle."
+  },
+  {
+    "id": "route-3-tm-fire",
+    "name": "TM27 Return",
+    "segmentId": "route-3",
+    "tag": "TM",
+    "locationDescription": "Item ball east of Pewter City on Route 3."
+  },
+  {
+    "id": "mt-moon-moon-stone",
+    "name": "Moon Stone",
+    "segmentId": "mt-moon",
+    "tag": "evolution-item",
+    "locationDescription": "Hidden item in Mt. Moon — use Itemfinder. Also held by wild Clefairy (rarely)."
+  },
+  {
+    "id": "mt-moon-tm-thief",
+    "name": "TM46 Thief",
+    "segmentId": "mt-moon",
+    "tag": "TM",
+    "locationDescription": "Item ball in the deeper section of Mt. Moon."
+  },
+  {
+    "id": "mt-moon-helix-dome-fossil",
+    "name": "Helix Fossil / Dome Fossil",
+    "segmentId": "mt-moon",
+    "tag": "key-item",
+    "locationDescription": "Choose one at the end of Mt. Moon from the Super Nerd. Helix → Omanyte, Dome → Kabuto."
+  },
+  {
+    "id": "route-4-tm-ember",
+    "name": "TM35 Flamethrower",
+    "segmentId": "route-4",
+    "tag": "TM",
+    "locationDescription": "Item ball on Route 4 east of Mt. Moon."
+  },
+  {
+    "id": "cerulean-city-cascade-badge",
+    "name": "Cascade Badge",
+    "segmentId": "cerulean-city",
+    "tag": "key-item",
+    "locationDescription": "Reward for defeating Misty. Enables HM Cut outside battle."
+  },
+  {
+    "id": "cerulean-city-tm-water",
+    "name": "TM29 Psychic",
+    "segmentId": "cerulean-city",
+    "tag": "TM",
+    "locationDescription": "Trade reward in Cerulean City house (Poliwhirl for Jynx)."
+  },
+  {
+    "id": "cerulean-city-bike-voucher",
+    "name": "Bike Voucher",
+    "segmentId": "cerulean-city",
+    "tag": "key-item",
+    "locationDescription": "Reward from the Pokémon Fan Club chairman in Vermilion (accessible after Cerulean)."
+  }
+]
