@@ -109,4 +109,5 @@ export interface RunState {
   capturedByArea: Record<string, number | null> // areaId -> dexId or null (failed/skipped)
   deadDexIds: number[] // dexIds of deceased Pokémon
   spoilerRevealedBossIds: string[]
+  xp: number
 }

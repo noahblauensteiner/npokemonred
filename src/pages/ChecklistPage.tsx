@@ -2,6 +2,7 @@ import { useState } from 'react'
 import checklistRaw from '../data/checklist.json'
 import type { ChecklistEntry } from '../types'
 import { ChecklistSection } from '../components/checklist/ChecklistSection'
+import { XpCard } from '../components/ui/XpCard'
 import { runStore } from '../store/runStore'
 
 const checklist = (checklistRaw as ChecklistEntry[]).sort((a, b) => a.order - b.order)
@@ -10,9 +11,11 @@ export function ChecklistPage() {
   const [showOptional, setShowOptional] = useState(false)
 
   return (
-    <div className="px-4 py-4">
-      <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-bold text-slate-100">Run Checklist</h2>
+    <div className="py-4">
+      <XpCard />
+
+      <div className="flex items-center justify-between px-4 mb-3">
+        <h2 className="text-sm font-bold text-slate-400 uppercase tracking-wider">Quest Log</h2>
         <button
           onClick={() => setShowOptional((p) => !p)}
           className={`text-xs px-3 py-1.5 rounded-lg border transition-colors ${
@@ -25,9 +28,11 @@ export function ChecklistPage() {
         </button>
       </div>
 
-      <ChecklistSection entries={checklist} showOptional={showOptional} />
+      <div className="px-3">
+        <ChecklistSection entries={checklist} showOptional={showOptional} />
+      </div>
 
-      <div className="mt-8 pt-4 border-t border-slate-800">
+      <div className="mt-8 pt-4 mx-4 border-t border-slate-800">
         <button
           onClick={() => {
             if (window.confirm('Reset your entire run? This cannot be undone.')) {

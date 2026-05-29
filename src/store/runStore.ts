@@ -7,6 +7,7 @@ const defaultState: RunState = {
   capturedByArea: {},
   deadDexIds: [],
   spoilerRevealedBossIds: [],
+  xp: 0,
 }
 
 function load(): RunState {
@@ -23,13 +24,23 @@ function save(state: RunState): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state))
 }
 
-// Simple pub-sub store — no React context overhead for v1
 type Listener = (state: RunState) => void
 const listeners = new Set<Listener>()
 let current = load()
 
 function notify() {
   listeners.forEach((l) => l(current))
+}
+
+export const XP_PER_CATCH = 50
+export const XP_PER_STORY = 50
+export const XP_PER_GYM = 200
+
+export function xpToLevel(xp: number) {
+  const level = Math.floor(xp / 100) + 1
+  const progress = xp % 100
+  const toNext = 100
+  return { level, progress, toNext }
 }
 
 export const runStore = {
@@ -40,20 +51,26 @@ export const runStore = {
     return () => { listeners.delete(fn) }
   },
 
-  toggleComplete: (id: string) => {
+  toggleComplete: (id: string, isBoss: boolean) => {
     const ids = current.completedIds
+    const wasComplete = ids.includes(id)
+    const xpGain = wasComplete ? 0 : isBoss ? XP_PER_GYM : XP_PER_STORY
     current = {
       ...current,
-      completedIds: ids.includes(id) ? ids.filter((x) => x !== id) : [...ids, id],
+      completedIds: wasComplete ? ids.filter((x) => x !== id) : [...ids, id],
+      xp: current.xp + xpGain,
     }
     save(current)
     notify()
   },
 
   setCaptured: (areaId: string, dexId: number | null) => {
+    const prev = current.capturedByArea[areaId]
+    const isNewCatch = dexId !== null && prev !== dexId
     current = {
       ...current,
       capturedByArea: { ...current.capturedByArea, [areaId]: dexId },
+      xp: current.xp + (isNewCatch ? XP_PER_CATCH : 0),
     }
     save(current)
     notify()
