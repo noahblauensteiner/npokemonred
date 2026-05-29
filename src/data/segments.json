@@ -1,0 +1,13 @@
+[
+  { "id": "pallet-town",    "name": "Pallet Town",    "badgeGate": 0, "order": 1 },
+  { "id": "route-1",        "name": "Route 1",         "badgeGate": 0, "order": 2 },
+  { "id": "viridian-city",  "name": "Viridian City",   "badgeGate": 0, "order": 3 },
+  { "id": "route-2-south",  "name": "Route 2 (South)", "badgeGate": 0, "order": 4 },
+  { "id": "viridian-forest","name": "Viridian Forest", "badgeGate": 0, "order": 5 },
+  { "id": "route-2-north",  "name": "Route 2 (North)", "badgeGate": 0, "order": 6 },
+  { "id": "pewter-city",    "name": "Pewter City",     "badgeGate": 0, "order": 7 },
+  { "id": "route-3",        "name": "Route 3",         "badgeGate": 1, "order": 8 },
+  { "id": "mt-moon",        "name": "Mt. Moon",        "badgeGate": 1, "order": 9 },
+  { "id": "route-4",        "name": "Route 4",         "badgeGate": 1, "order": 10 },
+  { "id": "cerulean-city",  "name": "Cerulean City",   "badgeGate": 1, "order": 11 }
+]

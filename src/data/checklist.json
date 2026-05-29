@@ -1,0 +1,202 @@
+[
+  {
+    "id": "get-starter",
+    "group": "story",
+    "order": 10,
+    "label": "Choose starter from Prof. Oak",
+    "segmentId": "pallet-town",
+    "bossId": null
+  },
+  {
+    "id": "rival-battle-pallet",
+    "group": "story",
+    "order": 20,
+    "label": "Defeat rival (Pallet Town)",
+    "segmentId": "pallet-town",
+    "bossId": null
+  },
+  {
+    "id": "deliver-parcel",
+    "group": "story",
+    "order": 30,
+    "label": "Deliver Oak's Parcel from Viridian Mart",
+    "segmentId": "viridian-city",
+    "bossId": null
+  },
+  {
+    "id": "catch-route-1",
+    "group": "story",
+    "order": 40,
+    "label": "First encounter: Route 1",
+    "segmentId": "route-1",
+    "bossId": null
+  },
+  {
+    "id": "catch-route-2-south",
+    "group": "optional",
+    "order": 50,
+    "label": "First encounter: Route 2 (South)",
+    "segmentId": "route-2-south",
+    "bossId": null
+  },
+  {
+    "id": "catch-viridian-forest",
+    "group": "story",
+    "order": 60,
+    "label": "First encounter: Viridian Forest",
+    "segmentId": "viridian-forest",
+    "bossId": null
+  },
+  {
+    "id": "bug-catcher-1-route-2",
+    "group": "optional",
+    "order": 70,
+    "label": "Bug Catcher #1 (Route 2 South)",
+    "segmentId": "route-2-south",
+    "bossId": null
+  },
+  {
+    "id": "bug-catcher-2-viridian-forest",
+    "group": "optional",
+    "order": 80,
+    "label": "Bug Catcher #2 (Viridian Forest)",
+    "segmentId": "viridian-forest",
+    "bossId": null
+  },
+  {
+    "id": "bug-catcher-3-viridian-forest",
+    "group": "optional",
+    "order": 90,
+    "label": "Bug Catcher #3 (Viridian Forest)",
+    "segmentId": "viridian-forest",
+    "bossId": null
+  },
+  {
+    "id": "catch-route-2-north",
+    "group": "optional",
+    "order": 100,
+    "label": "First encounter: Route 2 (North)",
+    "segmentId": "route-2-north",
+    "bossId": null
+  },
+  {
+    "id": "defeat-brock",
+    "group": "story",
+    "order": 110,
+    "label": "Defeat Brock (Badge 1 — Boulder)",
+    "segmentId": "pewter-city",
+    "bossId": "brock"
+  },
+  {
+    "id": "catch-route-3",
+    "group": "story",
+    "order": 120,
+    "label": "First encounter: Route 3",
+    "segmentId": "route-3",
+    "bossId": null
+  },
+  {
+    "id": "trainer-route-3-junior-1",
+    "group": "optional",
+    "order": 130,
+    "label": "Junior Trainer (Route 3 West)",
+    "segmentId": "route-3",
+    "bossId": null
+  },
+  {
+    "id": "trainer-route-3-junior-2",
+    "group": "optional",
+    "order": 140,
+    "label": "Junior Trainer (Route 3 East)",
+    "segmentId": "route-3",
+    "bossId": null
+  },
+  {
+    "id": "trainer-route-3-bug-catcher",
+    "group": "optional",
+    "order": 150,
+    "label": "Bug Catcher (Route 3)",
+    "segmentId": "route-3",
+    "bossId": null
+  },
+  {
+    "id": "catch-mt-moon",
+    "group": "story",
+    "order": 160,
+    "label": "First encounter: Mt. Moon",
+    "segmentId": "mt-moon",
+    "bossId": null
+  },
+  {
+    "id": "mt-moon-super-nerd-1",
+    "group": "optional",
+    "order": 170,
+    "label": "Super Nerd Jono (Mt. Moon)",
+    "segmentId": "mt-moon",
+    "bossId": null
+  },
+  {
+    "id": "mt-moon-super-nerd-2",
+    "group": "optional",
+    "order": 180,
+    "label": "Super Nerd Avery (Mt. Moon)",
+    "segmentId": "mt-moon",
+    "bossId": null
+  },
+  {
+    "id": "mt-moon-rocket-grunt-1",
+    "group": "optional",
+    "order": 190,
+    "label": "Team Rocket Grunt #1 (Mt. Moon)",
+    "segmentId": "mt-moon",
+    "bossId": null
+  },
+  {
+    "id": "mt-moon-rocket-grunt-2",
+    "group": "optional",
+    "order": 200,
+    "label": "Team Rocket Grunt #2 (Mt. Moon)",
+    "segmentId": "mt-moon",
+    "bossId": null
+  },
+  {
+    "id": "mt-moon-fossil-choice",
+    "group": "story",
+    "order": 210,
+    "label": "Choose fossil (Helix or Dome) — Mt. Moon exit",
+    "segmentId": "mt-moon",
+    "bossId": null
+  },
+  {
+    "id": "catch-route-4",
+    "group": "story",
+    "order": 220,
+    "label": "First encounter: Route 4",
+    "segmentId": "route-4",
+    "bossId": null
+  },
+  {
+    "id": "rival-battle-cerulean",
+    "group": "story",
+    "order": 230,
+    "label": "Defeat rival (Cerulean City — Route 24)",
+    "segmentId": "cerulean-city",
+    "bossId": null
+  },
+  {
+    "id": "trainer-route-24-swimmer",
+    "group": "optional",
+    "order": 235,
+    "label": "Swimmers on Route 24",
+    "segmentId": "cerulean-city",
+    "bossId": null
+  },
+  {
+    "id": "defeat-misty",
+    "group": "story",
+    "order": 240,
+    "label": "Defeat Misty (Badge 2 — Cascade)",
+    "segmentId": "cerulean-city",
+    "bossId": "misty"
+  }
+]

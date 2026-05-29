@@ -1,0 +1,129 @@
+[
+  {
+    "areaId": "route-1",
+    "methods": [
+      {
+        "method": "grass",
+        "pokemon": [
+          { "dexId": 16,  "name": "Pidgey",    "minLevel": 3, "maxLevel": 5, "rate": 45 },
+          { "dexId": 19,  "name": "Rattata",   "minLevel": 3, "maxLevel": 5, "rate": 45 },
+          { "dexId": 161, "name": "Sentret",   "minLevel": 3, "maxLevel": 5, "rate": 5  },
+          { "dexId": 263, "name": "Zigzagoon", "minLevel": 3, "maxLevel": 5, "rate": 5  }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "route-2-south",
+    "methods": [
+      {
+        "method": "grass",
+        "pokemon": [
+          { "dexId": 16,  "name": "Pidgey",    "minLevel": 4, "maxLevel": 6, "rate": 30 },
+          { "dexId": 19,  "name": "Rattata",   "minLevel": 4, "maxLevel": 6, "rate": 30 },
+          { "dexId": 29,  "name": "Nidoran♀",  "minLevel": 4, "maxLevel": 6, "rate": 20 },
+          { "dexId": 32,  "name": "Nidoran♂",  "minLevel": 4, "maxLevel": 6, "rate": 20 }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "viridian-forest",
+    "methods": [
+      {
+        "method": "grass",
+        "pokemon": [
+          { "dexId": 10,  "name": "Caterpie",  "minLevel": 3, "maxLevel": 6, "rate": 30 },
+          { "dexId": 11,  "name": "Metapod",   "minLevel": 4, "maxLevel": 7, "rate": 5  },
+          { "dexId": 13,  "name": "Weedle",    "minLevel": 3, "maxLevel": 6, "rate": 30 },
+          { "dexId": 14,  "name": "Kakuna",    "minLevel": 4, "maxLevel": 7, "rate": 5  },
+          { "dexId": 25,  "name": "Pikachu",   "minLevel": 3, "maxLevel": 6, "rate": 15 },
+          { "dexId": 43,  "name": "Oddish",    "minLevel": 4, "maxLevel": 7, "rate": 10 },
+          { "dexId": 69,  "name": "Bellsprout","minLevel": 4, "maxLevel": 7, "rate": 5  }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "route-2-north",
+    "methods": [
+      {
+        "method": "grass",
+        "pokemon": [
+          { "dexId": 16,  "name": "Pidgey",    "minLevel": 5, "maxLevel": 8, "rate": 25 },
+          { "dexId": 19,  "name": "Rattata",   "minLevel": 5, "maxLevel": 8, "rate": 25 },
+          { "dexId": 29,  "name": "Nidoran♀",  "minLevel": 5, "maxLevel": 8, "rate": 20 },
+          { "dexId": 32,  "name": "Nidoran♂",  "minLevel": 5, "maxLevel": 8, "rate": 20 },
+          { "dexId": 43,  "name": "Oddish",    "minLevel": 5, "maxLevel": 8, "rate": 10 }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "route-3",
+    "methods": [
+      {
+        "method": "grass",
+        "pokemon": [
+          { "dexId": 21,  "name": "Spearow",   "minLevel": 9,  "maxLevel": 11, "rate": 30 },
+          { "dexId": 39,  "name": "Jigglypuff","minLevel": 9,  "maxLevel": 11, "rate": 20 },
+          { "dexId": 56,  "name": "Mankey",    "minLevel": 9,  "maxLevel": 11, "rate": 25 },
+          { "dexId": 23,  "name": "Ekans",     "minLevel": 9,  "maxLevel": 11, "rate": 15 },
+          { "dexId": 236, "name": "Tyrogue",   "minLevel": 10, "maxLevel": 12, "rate": 5  },
+          { "dexId": 66,  "name": "Machop",    "minLevel": 9,  "maxLevel": 11, "rate": 5  }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "mt-moon",
+    "methods": [
+      {
+        "method": "grass",
+        "pokemon": [
+          { "dexId": 35,  "name": "Clefairy",  "minLevel": 8,  "maxLevel": 12, "rate": 15 },
+          { "dexId": 41,  "name": "Zubat",     "minLevel": 8,  "maxLevel": 12, "rate": 30 },
+          { "dexId": 74,  "name": "Geodude",   "minLevel": 8,  "maxLevel": 12, "rate": 25 },
+          { "dexId": 46,  "name": "Paras",     "minLevel": 8,  "maxLevel": 12, "rate": 20 },
+          { "dexId": 52,  "name": "Meowth",    "minLevel": 8,  "maxLevel": 12, "rate": 5  },
+          { "dexId": 239, "name": "Elekid",    "minLevel": 9,  "maxLevel": 12, "rate": 5  }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "route-4",
+    "methods": [
+      {
+        "method": "grass",
+        "pokemon": [
+          { "dexId": 21,  "name": "Spearow",   "minLevel": 13, "maxLevel": 15, "rate": 25 },
+          { "dexId": 23,  "name": "Ekans",     "minLevel": 13, "maxLevel": 15, "rate": 20 },
+          { "dexId": 19,  "name": "Rattata",   "minLevel": 13, "maxLevel": 15, "rate": 15 },
+          { "dexId": 58,  "name": "Growlithe",  "minLevel": 13, "maxLevel": 15, "rate": 15 },
+          { "dexId": 83,  "name": "Farfetch'd", "minLevel": 13, "maxLevel": 15, "rate": 10 },
+          { "dexId": 96,  "name": "Drowzee",   "minLevel": 13, "maxLevel": 15, "rate": 15 }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          { "dexId": 79,  "name": "Slowpoke",  "minLevel": 10, "maxLevel": 25, "rate": 100 }
+        ]
+      },
+      {
+        "method": "fishing-old",
+        "pokemon": [
+          { "dexId": 129, "name": "Magikarp",  "minLevel": 5,  "maxLevel": 10, "rate": 100 }
+        ]
+      },
+      {
+        "method": "fishing-good",
+        "pokemon": [
+          { "dexId": 129, "name": "Magikarp",  "minLevel": 10, "maxLevel": 20, "rate": 60 },
+          { "dexId": 79,  "name": "Slowpoke",  "minLevel": 10, "maxLevel": 20, "rate": 40 }
+        ]
+      }
+    ]
+  }
+]
